@@ -1,0 +1,7 @@
+Library/
+Logs/
+ProjectSettings/
+obj/
+dist/
+Assets/
+!Assets/Modelle_Selfmade
