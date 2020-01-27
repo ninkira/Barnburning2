@@ -2,6 +2,7 @@ Library/
 Logs/
 ProjectSettings/
 obj/
-dist/
-Assets/
+!dist/barnburning_demoversion_EckertzSchwarzMakomeRothkamp.apk
+dist/**
 !Assets/Modelle_Selfmade
+Assets/**
