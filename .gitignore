@@ -2,5 +2,5 @@ Library/
 Logs/
 ProjectSettings/
 obj/
-!Assets/Modelle_Selfmade
-Assets/**
+Assets/
+dist/
