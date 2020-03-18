@@ -9,9 +9,10 @@ public class changeMaterial : MonoBehaviour
     public Material materialThree;
     public Material materialFour;
     public Material materialFive;
-
+    
     public GameObject chooseUI;
 
+    public GameObject fireEffects;
     public GameObject clip01;
     public GameObject clip02;
     public GameObject clip03;
@@ -48,6 +49,7 @@ public class changeMaterial : MonoBehaviour
 
         feuerloescher.SetActive(false);
         schuh.SetActive(false);
+        fireEffects.SetActive(false);
     }
 
     IEnumerator psychoAnimation()
@@ -69,6 +71,7 @@ public class changeMaterial : MonoBehaviour
         clip01.SetActive(false);
         clip02.SetActive(true);
         feuer.SetActive(true);
+        fireEffects.SetActive(true);
         yield return new WaitForSeconds(3.0f);
         sirene.SetActive(true);
 
